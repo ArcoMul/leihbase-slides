@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leihbase</title>
+    <style>
+      body {
+        font-size: var(--text-2xl);
+      }
+      section {
+        min-height: 100dvh;
+        width: 100%;
+        padding: calc(var(--spacing) * 12);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      h1 {
+        font-size: var(--text-7xl);
+        font-weight: 800;
+      }
+      h2 {
+        font-size: var(--text-5xl);
+        font-weight: 800;
+        margin-bottom: calc(var(--spacing) * 8);
+      }
+      ul,
+      p {
+        margin-bottom: calc(var(--spacing) * 4);
+      }
+      a {
+        font-weight: 500;
+        color: var(--color-sky-500);
+      }
+      a:hover {
+        color: var(--color-sky-300);
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          color: #213547;
+          background-color: #ffffff;
+        }
+        a:hover {
+          color: #747bff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Leihbase</h1>
+      <p class="text-2xl mb-6">
+        Open-source, Self-Hostable, Web Applikation um Leihladen zu verwalten.
+      </p>
+      <p class="text-2xl">
+        <a target="_blank" href="https://github.com/ArcoMul/leihbase">
+          github.com/ArcoMul/leihbase
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <img
+        src="https://raw.githubusercontent.com/ArcoMul/leihbase/refs/heads/next/screenshots/screenshot-index-page.png"
+      />
+    </section>
+
+    <section>
+      <h2>Im Einsatz bei Leihbar-Köln</h2>
+      <p class="text-2xl">
+        👉
+        <a
+          class="pl-2"
+          target="_blank"
+          href="https://katalog.leihbar-koeln.org"
+        >
+          katalog.leihbar-koeln.org
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Technische Ansatz</h2>
+      <ul class="list-disc pl-6">
+        <li>Open-Source</li>
+        <li>Self-Hostable</li>
+        <li>Moderne-Stack</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Konzeptionelle Ansatz</h2>
+      <ul>
+        <li>👉 Leihladen zentriert</li>
+        <li>👉 Instanz pro Leihlade oder Stadt</li>
+        <li>👉 Verwaltung mehrere Aushleihlocations</li>
+        <li>👉 Reservierungsverwaltung</li>
+        <li class="pb-8">👉 Productverwaltung</li>
+        <li>❌ Kein Nutzer verifizierung</li>
+        <li>❌ Kein Support für große Instanzen</li>
+        <li>❌ Keine Website-Tool</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>🏪 Webshop-Frontend / Produkten Darstellung</li>
+        <li>🏙️ Mehrere Ausleih-Standorten</li>
+        <li>🏷️ Produktkategorie-Filterung</li>
+        <li>🧑‍🤝‍🧑 Benutzeranmeldung/Login</li>
+        <li>🎫 Produktreservierungen</li>
+        <li>👷 Reservierungsverwaltung</li>
+        <li>📧 Reservierungsabholung- und Rückgabe E-Mail-Erinnerungen</li>
+        <li>🎨 Themeable</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Roadmap</h2>
+      <ul class="list-disc pl-6">
+        <li>Verlängerungen</li>
+        <li>Produkt-verwaltung</li>
+        <li>Standort-verwaltung</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><a href="http://localhost:3000">🚀 Demo</a></h2>
+    </section>
+
+    <section>
+      <h2>Erfahrungen</h2>
+      <ul class="list-disc pl-6">
+        <li>✅ Perfekt Anpasbar zum Leihbar-Köln Workflow</li>
+        <li>🙏 Produkt-Verwaltung vermisst</li>
+      </ul>
+    </section>
+  </body>
+</html>
